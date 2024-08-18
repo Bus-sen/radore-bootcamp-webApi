@@ -43,5 +43,16 @@ namespace CodeFirstOrnek.Controllers
             return Ok();
         }
 
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Kitap>> KitapDetayGetir(int id)
+        {
+            var detayKitap = await _context.Kitap.FindAsync(id);
+            if(detayKitap == null)
+            {
+                return NotFound();
+            }
+            return detayKitap;
+        }
+
     }
 }

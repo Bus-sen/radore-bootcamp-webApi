@@ -54,5 +54,31 @@ namespace CodeFirstOrnek.Controllers
             return detayKitap;
         }
 
+        [HttpPut]
+        public async Task<ActionResult<Kitap>> kitapGuncelle(Kitap kitap, int id)
+        {
+            var guncellenecekKitap = await _context.Kitap.FindAsync(id);
+            try
+            {
+                _context.Kitap.Update(kitap);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex) { }
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Kitap>> kitapSil(int id)
+        {
+            var silinecekKitap = await _context.Kitap.FindAsync(id);
+            if (silinecekKitap == null)
+            {
+                return NotFound();
+            }
+            _context.Remove(silinecekKitap);
+            await _context.SaveChangesAsync();
+            return Ok();
+        }
+
     }
 }

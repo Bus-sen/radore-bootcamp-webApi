@@ -1,0 +1,46 @@
+﻿@model MvcOrnek.Models.Kitap
+
+@{
+    ViewData["Title"] = "KitapGuncelle";
+}
+
+<h1>KitapGuncelle</h1>
+
+<h4>Kitap</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="KitapGuncelle">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="kitapAdi" class="control-label"></label>
+                <input asp-for="kitapAdi" class="form-control" />
+                <span asp-validation-for="kitapAdi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fiyat" class="control-label"></label>
+                <input asp-for="fiyat" class="form-control" />
+                <span asp-validation-for="fiyat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="sayfaSayisi" class="control-label"></label>
+                <input asp-for="sayfaSayisi" class="form-control" />
+                <span asp-validation-for="sayfaSayisi" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Kaydet" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

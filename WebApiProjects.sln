@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiProjects", "WebApiProjects\WebApiProjects.csproj", "{51D0D34E-ABCA-4465-BE27-C49D9CD1D92E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiProjects", "WebApiProjects\WebApiProjects.csproj", "{51D0D34E-ABCA-4465-BE27-C49D9CD1D92E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstOrnek", "CodeFirstOrnek\CodeFirstOrnek.csproj", "{D0A11DED-F84C-4D74-8F2E-26EFEE474711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstOrnek", "CodeFirstOrnek\CodeFirstOrnek.csproj", "{D0A11DED-F84C-4D74-8F2E-26EFEE474711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcOrnek", "MvcOrnek\MvcOrnek.csproj", "{EA13CD61-F910-4175-8A43-AF66D3A5A2ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D0A11DED-F84C-4D74-8F2E-26EFEE474711}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0A11DED-F84C-4D74-8F2E-26EFEE474711}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0A11DED-F84C-4D74-8F2E-26EFEE474711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA13CD61-F910-4175-8A43-AF66D3A5A2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA13CD61-F910-4175-8A43-AF66D3A5A2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA13CD61-F910-4175-8A43-AF66D3A5A2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA13CD61-F910-4175-8A43-AF66D3A5A2ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

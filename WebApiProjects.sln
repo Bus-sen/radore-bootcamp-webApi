@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiProjects", "WebApiPro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstOrnek", "CodeFirstOrnek\CodeFirstOrnek.csproj", "{D0A11DED-F84C-4D74-8F2E-26EFEE474711}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcOrnek", "MvcOrnek\MvcOrnek.csproj", "{EA13CD61-F910-4175-8A43-AF66D3A5A2ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcOrnek", "MvcOrnek\MvcOrnek.csproj", "{EA13CD61-F910-4175-8A43-AF66D3A5A2ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtOrnek", "JwtOrnek\JwtOrnek.csproj", "{DF763BB3-D4F4-4D80-ADA9-031090A22E9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{EA13CD61-F910-4175-8A43-AF66D3A5A2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA13CD61-F910-4175-8A43-AF66D3A5A2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA13CD61-F910-4175-8A43-AF66D3A5A2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF763BB3-D4F4-4D80-ADA9-031090A22E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF763BB3-D4F4-4D80-ADA9-031090A22E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF763BB3-D4F4-4D80-ADA9-031090A22E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF763BB3-D4F4-4D80-ADA9-031090A22E9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
